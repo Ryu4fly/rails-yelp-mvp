@@ -13,13 +13,13 @@
   box-shadow: 0px 3px 10px -2px grey;
 }
 
-.btn {
+.btn.btn-outline-danger{
   border-color: #af0606 !important;
   color: #af0606 !important;
   font-weight: bold;
 }
 
-.btn:hover {
+.btn.btn-outline-danger:hover {
   background-color: rgba( 175, 6, 6, .9) !important;
   color: white !important;
 }
