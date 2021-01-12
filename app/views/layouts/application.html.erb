@@ -13,6 +13,20 @@
   </head>
 
   <body>
+
+    <nav class="navbar navbar-light justify-content-between" style="background-color: white;">
+
+
+      <%= link_to restaurants_path, class: "navbar-link" do %>
+         <%= image_tag "https://cdn.vox-cdn.com/thumbor/IolwDNln-KxOO4G36GHWpYWixA8=/0x0:1100x733/1820x1213/filters:focal(0x0:1100x733):format(webp)/cdn.vox-cdn.com/assets/884081/Yelp_Logo_No_Outline_Color-01.jpg", class: "navbar-brand" %>
+      <% end %>
+
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+    </nav>
     <%= yield %>
   </body>
 </html>
