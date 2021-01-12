@@ -11,7 +11,7 @@ Restaurant.destroy_all
 puts 'Data deleted.'
 
 puts 'Creating new data...'
-100.times do
+6.times do
   Restaurant.create(
     name: Faker::Restaurant.name,
     address: Faker::Address.street_address,
