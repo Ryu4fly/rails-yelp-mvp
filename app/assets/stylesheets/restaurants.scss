@@ -1,3 +1,13 @@
-// Place all the styles related to the restaurants controller here.
+// Place all the styles related to the restaurant controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.navbar-brand {
+  width: 100px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  margin-bottom: 15px;
+}
